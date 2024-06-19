@@ -1,0 +1,108 @@
+body{
+    background-image: url(img/service.jpg);
+    background-repeat: repeat;
+    background-size:cover;
+    background-position: center;
+    height: 100vh;
+    /* overflow: hidden; */
+    font-family: "Oswald", sans-serif;
+    
+}
+
+.back{
+    font-family: "Oswald", sans-serif;
+    display:inline-block;
+    /* border:2px solid red; */
+    height:32px;
+    width:100px;
+    margin:0px;
+    padding:5px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    transform: translate(0px, 0px);
+    color:red;
+    position: fixed;
+}
+.back:hover{
+    background-color: white;
+    color:black;
+    cursor: pointer;
+}
+
+.text {
+    background: linear-gradient(to right, red, orange, indigo, violet);
+    background-clip:text;
+    color: transparent;
+    text-align: left;
+    display:block;
+}
+
+/* @media (max-width: 600px) {
+    .box {
+      width:var();
+    }
+  } */
+
+.service{
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    /* margin-top: -80px;. */
+    display: block;
+    text-shadow:5px 5px 10px white;
+}
+
+#container{
+    /* border:2px solid red; */
+    height:80vh;
+    width:100%;
+    top:-30px;
+    display: flex;
+    flex-wrap: wrap;
+    /* display:flex;
+    margin-top: 0px;
+    margin-left:50px;
+    flex-direction: row;
+    align-content: flex-start;
+    flex-wrap: wrap; */
+
+} 
+.box1{
+    width: 300px;
+    height: 450px;
+    /* border: 2px solid white; */
+    flex-grow: 1;
+    flex-basis: 200px;
+    margin:30px;
+    color:white;
+    font-family: "DM Sans", sans-serif;
+    font-size:20px;
+    /* background-color: rgb(213, 207, 207); */
+    /* background-color: transparent; */
+    box-shadow: 10px 10px 10px  rgb(147, 126, 126);
+    
+}
+.left img{
+    width:50px;
+    margin-left:130px;
+    filter: invert(100%);
+}
+.mid img{
+    width:50px;
+    margin-left:130px;
+    filter: invert(100%);
+}
+.right img{
+    width:50px;
+    margin-left:130px;
+    filter: invert(100%);
+}
+
+p{
+    font-size: 18px;
+}
+ul{
+    font-weight: bolder;
+    margin-top:50px;
+}

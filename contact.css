@@ -1,0 +1,196 @@
+body{
+    background-image: url("img/service.jpg");
+    background-repeat: repeat;
+    background-size:cover;
+    background-position: center;
+    height: 100vh;
+    /* overflow: hidden; */
+    color:white;
+    font-family: "Oswald", sans-serif;
+}
+
+header div{
+    display:inline-block;
+    /* border:2px solid red; */
+    height:32px;
+    width:100px;
+    margin:0px;
+    padding:5px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    transform: translate(0px, 0px);
+    color:red;
+    position:fixed;
+}
+
+header div:hover{
+        background-color: white;
+    color:black;
+    cursor: pointer;
+}
+
+header h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+header p{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(198, 170, 170);
+    margin-top: -20px;
+}
+
+.container{
+    /* border:2px solid red; */
+    width:800px;
+    height:550px;
+    transform: translate(180px, 0px);
+}
+
+.item1{
+    /* border:2px solid blue; */
+    width:399px;
+    height:550px;
+    
+}
+.black{
+    background: linear-gradient(to right, rgba(0, 0, 255, 0.651), rgba(0, 0, 255, 0.483), rgba(76, 0, 130, 0.566), rgba(238, 130, 238, 0.551));
+    /* position:relative; */
+    display: inline-block;
+}
+
+.black h1{
+    margin-left: 70px;
+}
+
+.for{
+    font-size: 20px;
+    margin-left:10px;
+    padding:5px;
+    display:inline-block;
+}
+#em{
+    /* border:2px solid red; */
+    display:inline-block;
+    transform: translate(-30px,40px);
+}
+
+
+.for input{
+    width:250px;
+    height:35px;
+    border-radius: 10px;
+    border:2px solid green;
+    background-color: grey;
+    margin-right:200px;
+    display: inline-block;
+}
+.for input:hover{
+    background-color: white;
+}
+#mail{
+    border:2px solid red;
+}
+#email{
+    transform: translate(-35px,40px);
+    /* border:2px solid red; */
+}
+.for textarea{
+    width:250px;
+    height:60px;
+    /* border:2px solid green; */
+    border-radius: 10px;
+    background-color: grey;
+    margin-right: 200px;
+}
+.for textarea:hover{
+    background-color: white;
+}
+.submit input{
+    width:250px;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+}
+
+.classerror{
+    color:red;
+    font-size: 14px;
+}
+
+#emailError{
+    color:white;
+    font-size: 14px;
+}
+
+.white{
+    display: inline-block;
+    position:absolute;
+    background-color: white;
+}
+
+
+.white{
+    color:black;
+    text-align: center;
+}
+
+.image{
+    width:30px;
+    /* border:1px solid red; */
+    border-radius: 50%;
+    margin-top:40px;
+    margin-left: 50px;
+    padding:9px;
+    box-shadow: 4px 4px 10px black;
+}
+
+.phone{
+    transform: translate(0px, -40px);
+}
+
+.mail{
+    transform: translate(35px, -40px);
+}
+
+.location{
+    transform: translate(35px, -40px);
+}
+
+.social{
+    display:inline-block;
+    /* border:2px solid red; */
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    padding:9px;
+    align-items: center;
+    margin-left: 25px;
+    box-shadow: 4px 4px 10px black;
+    transition: transform 0.3 ease;
+}
+
+.social:hover{
+    transform:scale(1.3);
+    cursor:pointer;
+    background-color: rgba(128, 128, 128, 0.767);
+}
+
+.insta{
+    transform: translate(-15px, 10px);
+}
+.linked{
+    transform: translate(-6px, 10px);
+}
+.twitter{
+    transform:translate(0px, 20px);
+}
+.linked img{
+    margin-top:8px;
+}
+
+.insta img{
+    margin-top:8px;
+}

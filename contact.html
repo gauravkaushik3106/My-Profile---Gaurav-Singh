@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="index.html"><div>Go Home</div></a>
+        <h1>Contact Us</h1>
+        <p>Any questions or remarks? Just write us a message!</p>
+    </header>
+
+    <div class="container">
+
+        <div class="black item1">
+            <h1>Send us a message</h1>
+            <form action="/submit-form" name="myForm" onsubmit="return validateForm()" method="post">
+                <div class="for naam">
+                    <label for="name"><div id="na">Name:</div></label> 
+                    <input type="text" id="name" name="name" required> <div class="classerror" id="nameError"></div>
+
+                </div>
+                <div class="for mail">
+                    <label for="email"><div id="em">Email:</div></label>
+                    <input type="email" id="email" name="email" required><div class="classerror" id="emailError"></div>
+
+                </div>
+                <div class="for sub">
+                    <label for="subject"><div id="subj">Subject:</div></label>
+                    <input type="text" id="subject" name="subject" required><div class="classerror" id="subjectError"></div>
+
+                </div>
+                <div class="for comm">
+                    <label for="comments"><div id="com">Comments:</div></label>
+                    <textarea id="comments" name="comments" rows="4" required></textarea><div class="classerror" id="commentsError"></div>
+
+                </div>
+               
+                <div class="for submit">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>  
+        </div>
+
+
+        <div class="white item1">
+            <h2>Contact Information</h2>
+            <p>We are open for any suggestion or just to have a chat!</p>
+            <div class="image"><img src="img/icons8-phone-30.png" alt="phone icon"></div>
+            <div class="phone"><b>Phone : </b>+91-123-456-7890</div>
+
+            <div class="image"><img src="img/icons8-mail-24.png" alt="mail icon"></div>
+            <div class="mail"><b>Email : </b>gauravkaushik9838@gmail.com</div>
+
+            <div class="image"><img src="img/icons8-location-24.png" alt="location icon"></div>
+            <div class="location"><b>Location : </b>104 street C-Block New-Delhi</div>
+
+            <div class="social insta"> <a target="_blank" href="https://www.instagram.com/gaurav_kaushik_06?igsh=aXFocGJ0NHJhYm41"><img src="img/icons8-instagram-30.png" alt="instagram icon"></a> </div>
+            <div class="social linked"> <a target="_blank" href="https://www.linkedin.com/in/gaurav-singh-iitg?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="img/icons8-linkedin-30.png" alt="instagram icon"></a> </div>
+            <div class="social twitter"> <a target="_blank" href="https://x.com/mrGaura73748023?t=Kc-oM1d2An153L2lhG185A&s=09"><img src="img/icons8-twitter-48.png" alt="instagram icon"></a> </div>
+        </div>
+
+    </div>
+
+    <script src="script.js" ></script>
+</body>
+</html>
